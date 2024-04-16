@@ -9,3 +9,5 @@ server:
     threads:
       max: 50
       min-spare: 5
+shop:
+  greeting: Welcome to the Space shop

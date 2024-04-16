@@ -1,4 +1,4 @@
-package com.space.shoppingservice;
+package com.space.shoppingservice.api;
 
 import com.space.shoppingservice.domain.Product;
 import com.space.shoppingservice.service.ProductService;
