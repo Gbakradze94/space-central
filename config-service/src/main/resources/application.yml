@@ -14,5 +14,8 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/Gbakradze94/config-repo
           default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
