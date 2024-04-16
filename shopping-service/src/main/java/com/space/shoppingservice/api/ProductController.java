@@ -2,6 +2,7 @@ package com.space.shoppingservice;
 
 import com.space.shoppingservice.domain.Product;
 import com.space.shoppingservice.service.ProductService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,7 +35,7 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Product createProduct(@RequestBody Product product) {
+    public Product createProduct(@Valid @RequestBody Product product) {
         return productService.addProduct(product);
     }
 
@@ -45,7 +46,7 @@ public class ProductController {
     }
 
     @PutMapping("{isbn}")
-    public Product editProduct(@PathVariable String sku, @RequestBody Product product) {
+    public Product editProduct(@PathVariable String sku, @Valid @RequestBody Product product) {
         return productService.editProductDetails(sku, product);
     }
 }

@@ -1,0 +1,29 @@
+
+P
+ shopping-service/settings.gradle,a\0\a02d03018d1a773ab5a14c3a7841b3aa4f2669c7
+à
+Xshopping-service/src/main/java/com/space/shoppingservice/ShoppingServiceApplication.java,2\4\247ddd4123e49a1b0b8592152b2089fe47605215
+|
+Lshopping-service/src/main/java/com/space/shoppingservice/HomeController.java,e\b\eb4891c51a07abfee63324d79dc5cc9c9ff12c56
+ç
+]shopping-service/src/test/java/com/space/shoppingservice/ShoppingServiceApplicationTests.java,2\8\28f75b3977be7e92507adf2d0fe22d8a5c69aaa1
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Ñ
+Tshopping-service/src/main/java/com/space/shoppingservice/demo/ProductDataLoader.java,c\6\c61da115a4c5ca78cab2078aff74f42b3cd1c06a
+M
+shopping-service/build.gradle,5\c\5cb66f7e8280fa2d5ea9949efca7829f171c2973
+|
+Lshopping-service/src/main/java/com/space/shoppingservice/domain/Product.java,4\f\4fbe1c7aef80a766e71d7f559c610f3c37859f37
+é
+^shopping-service/src/main/java/com/space/shoppingservice/service/ProductNotFoundException.java,1\e\1e573b93a22721d317f2910f08df9e036d73cf5f
+ï
+eshopping-service/src/main/java/com/space/shoppingservice/exception/ProductAlreadyExistsException.java,5\2\52646dc627de29c81939a13758bb7008f5cb9e90
+Ñ
+Tshopping-service/src/main/java/com/space/shoppingservice/service/ProductService.java,a\6\a6a7ddafabd1fdda69395672a9ea6f2a1d83e6f1
+
+Oshopping-service/src/main/java/com/space/shoppingservice/ProductController.java,0\8\0887700a0ef90ec84da57d6dda9403bfe632d942
+ä
+Zshopping-service/src/main/java/com/space/shoppingservice/repository/ProductRepository.java,8\1\81443b09e6915a88f6ddac9da89a06dc6ab138c8
+å
+\shopping-service/src/main/java/com/space/shoppingservice/demo/InMemoryProductRepository.java,9\8\98a884ffdbff19efa08942346b16f2734d918632
