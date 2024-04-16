@@ -1,6 +1,6 @@
 package com.space.shoppingservice.api;
 
-import com.space.shoppingservice.ShoppingProperties;
+import com.space.shoppingservice.config.ShoppingProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

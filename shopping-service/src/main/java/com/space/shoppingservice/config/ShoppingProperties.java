@@ -1,4 +1,4 @@
-package com.space.shoppingservice;
+package com.space.shoppingservice.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
