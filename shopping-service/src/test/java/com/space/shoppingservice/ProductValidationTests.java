@@ -23,7 +23,7 @@ class ProductValidationTests {
 
     @Test
     void whenAllFieldsCorrectThenValidationSucceeds() {
-        var product = new Product("1234567890",
+        var product = Product.of("1234567890",
                 "IPhone",
                 "Iphone description",
                 1200.0
@@ -34,7 +34,7 @@ class ProductValidationTests {
 
     @Test
     void whenSkuDefinedIncorrectlyThenValidationFails() {
-        var product = new Product("abc123","HP Elitebook", "Laptop", 2000.0);
+        var product = Product.of("abc123","HP Elitebook", "Laptop", 2000.0);
         Set<ConstraintViolation<Product>> violations = validator.validate(product);
         assertThat(violations).hasSize(1);
         assertThat(violations.iterator().next().getMessage())

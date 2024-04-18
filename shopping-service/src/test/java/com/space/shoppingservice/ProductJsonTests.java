@@ -17,7 +17,7 @@ public class ProductJsonTests {
 
     @Test
     void testSerialize() throws IOException {
-        var product = new Product("1234567890", "IPhone 15", "Iphone 15 Smartphone", 1000.0);
+        var product = Product.of("1234567890", "IPhone 15", "Iphone 15 Smartphone", 1000.0);
         var jsonContent = json.write(product);
         assertThat(jsonContent).extractingJsonPathStringValue("@.sku")
                 .isEqualTo(product.sku());
@@ -41,6 +41,6 @@ public class ProductJsonTests {
                 """;
         assertThat(json.parse(content))
                 .usingRecursiveComparison()
-                .isEqualTo(new Product("1234567890", "Iphone 15", "IPhone smartphone", 1000.0));
+                .isEqualTo(Product.of("1234567890", "Iphone 15", "IPhone smartphone", 1000.0));
     }
 }

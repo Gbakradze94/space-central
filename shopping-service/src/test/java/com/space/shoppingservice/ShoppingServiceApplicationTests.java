@@ -18,7 +18,7 @@ class ShoppingServiceApplicationTests {
 
 	@Test
 	void whenPostRequestThenProductCreated() {
-		var expectedProduct = new Product("1234567890", "GoPro Hero 7", "Action camera", 1500.0);
+		var expectedProduct = Product.of("1234567890", "GoPro Hero 7", "Action camera", 1500.0);
 
 		webTestClient.post()
 				.uri("/products")
