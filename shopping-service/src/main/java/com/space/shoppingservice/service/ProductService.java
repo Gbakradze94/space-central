@@ -37,10 +37,14 @@ public class ProductService {
         return productRepository.findBySku(sku)
                 .map(existingProduct -> {
                     var productToUpdate = new Product(
+                            existingProduct.id(),
                             existingProduct.sku(),
                             product.title(),
                             product.description(),
-                            product.price()
+                            product.price(),
+                            existingProduct.createdDate(),
+                            existingProduct.lastModifiedDate(),
+                            existingProduct.version()
                     );
                     return productRepository.save(productToUpdate);
                 })

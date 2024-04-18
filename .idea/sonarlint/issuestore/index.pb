@@ -43,3 +43,7 @@ K
 Pshopping-service/src/main/java/com/space/shoppingservice/api/HomeController.java,a\e\aea0f8fd3c4ad9d03c34b40406b921907490b1e7
 ‡
 Wshopping-service/src/main/java/com/space/shoppingservice/config/ShoppingProperties.java,8\3\8389fa8690ba739e141c5ef06ef2d2bca4b4c65c
+P
+ config-repo/shopping-service.yml,0\f\0f911f7f83fb164f84f3a91727332ba40cf2a7dc
+U
+%config-repo/shopping-service-prod.yml,c\e\cee7364b0c1e7bb173306b43d6610912108bd90b

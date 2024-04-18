@@ -43,3 +43,7 @@ K
 config-service/build.gradle,8\9\897bbd6396225a219326c38f922b61d623bbf902
 ‚
 Rconfig-service/src/main/java/com/space/configservice/ConfigServiceApplication.java,0\e\0e1505ce0500f39c240cdd2e797f83799fd9404a
+P
+ config-repo/shopping-service.yml,0\f\0f911f7f83fb164f84f3a91727332ba40cf2a7dc
+U
+%config-repo/shopping-service-prod.yml,c\e\cee7364b0c1e7bb173306b43d6610912108bd90b

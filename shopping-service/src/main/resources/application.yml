@@ -14,6 +14,18 @@ spring:
         initial-interval: 1000 # 1s
         max-interval: 2000 # 2s
         multiplier: 1.1
+
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/shoppingdb
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
+  sql:
+    init:
+      mode: always
+
 server:
   port: 8081
   tomcat:
