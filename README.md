@@ -13,3 +13,12 @@ To manually import the image to the kubernetes cluster: <br/>
 To create deployment: <br/>
 ``` kubectl create deployment shopping-service --image=shopping-service:0.0.1-SNAPSHOT ``` <br/>
 
+## Running Postgres as a Container
+``` 
+    docker run -d name shopping-postgres \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_PASSWORD=password \
+    -e POSTGRES_DB=shoppingdb   \
+    -p 5432:5432 \
+    postgres:14.4
+```

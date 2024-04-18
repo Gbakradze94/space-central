@@ -21,9 +21,7 @@ public class ProductDataLoader {
     public void loadProductTestData() {
         productRepository.deleteAll();
         var product1 = Product.of("1234567890", "Ear phones", "Eap phones", 45.00);
-        var product2 = Product.of("1234567880", "Samsung SM-860", "Smart watch", 500.00);
-        productRepository.save(product1);
-        productRepository.save(product2);
+        var product2 = Product.of("123456", "Samsung SM-860", "Smart watch", 500.00);
         productRepository.saveAll(List.of(product1, product2));
     }
 }
