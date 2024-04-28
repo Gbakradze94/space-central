@@ -15,10 +15,26 @@ To create deployment: <br/>
 
 ## Running Postgres as a Container
 ``` 
-    docker run -d name shopping-postgres \
+    docker run -d --name shopping-postgres \
+    --net shopping-network \
     -e POSTGRES_USER=postgres \
     -e POSTGRES_PASSWORD=password \
     -e POSTGRES_DB=shoppingdb   \
     -p 5432:5432 \
     postgres:14.4
+```
+
+## Running Shopping Service as a Container
+``` 
+    docker run -d --name shopping-service \
+    --net shopping-service \
+    -p 8081:8081 \
+    -e SPRING_DATASOURCE_URL=jdbc:postgresql://shopping-postgres:5432/shoppingdb \
+    -e SPRING_PROFILES_ACTIVE=testdata \
+    shopping-service
+```
+
+### To delete the containers after you are done: <br/>
+``` 
+docker rm -f catalog-service polar-postgres
 ```

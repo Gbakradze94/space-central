@@ -47,3 +47,9 @@ P
  config-repo/shopping-service.yml,0\f\0f911f7f83fb164f84f3a91727332ba40cf2a7dc
 U
 %config-repo/shopping-service-prod.yml,c\e\cee7364b0c1e7bb173306b43d6610912108bd90b
+è
+_shopping-service/src/test/java/com/space/shoppingservice/domain/ProductRepositoryJdbcTests.java,d\c\dc1d77b2dd99865e41b07f8f3f2ee7f40d35e7f4
+á
+Wshopping-service/src/main/java/com/space/shoppingservice/config/ShoppingDataConfig.java,6\b\6b7995d1407d2ceab17341bff93ea68ef1bddb1f
+K
+shopping-service/Dockerfile,3\5\35accb7ecf4729fbe325670bd39a923ec86a2745
