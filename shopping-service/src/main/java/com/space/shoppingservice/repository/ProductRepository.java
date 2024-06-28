@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-
+@Repository
 public interface ProductRepository extends CrudRepository<Product, Long> {
     Iterable<Product> findAll();
     Optional<Product> findBySku(String sku);
