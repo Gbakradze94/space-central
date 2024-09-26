@@ -17,7 +17,7 @@ spring:
 
   datasource:
     username: postgres
-    password: password
+    password: postgres
     url: jdbc:postgresql://localhost:5432/shoppingdb
     hikari:
       connection-timeout: 2000
