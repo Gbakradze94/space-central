@@ -1,3 +1,15 @@
+# Space Central
+
+Space Central Limited, based in Tbilisi, specializes in a variety of 
+customer services including online shopping platform called space
+shopping.
+
+## Business Goals
+Space Central aims to create a platform that's dependable, user-friendly,
+and accessible to anyone at any time and place. The application
+must handle millions of concurrent users without compromising service
+quality.
+
 ## Shopping Service
 To run the tests open the terminal in shopping-service folder and run: <br/>
 ``` ./gradlew test ``` <br/>
